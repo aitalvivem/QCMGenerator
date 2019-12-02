@@ -1,0 +1,122 @@
+/* elements généraux */
+body{
+	font-family: calibri;
+}
+.corp{
+	border : 1px solid black;
+	width : 70%;
+	margin : 2em auto;
+	padding : 1em;
+	background-color : #d5d4d0;
+}
+
+/* navigation */
+header nav ul li a{
+	text-decoration : none;
+	font-weight: bold;
+	color:  black;
+}
+header nav ul li a:hover{
+	text-decoration : underline;
+}
+header nav ul li{
+	display : inline-block;
+	margin : 0 1em;
+}
+header nav{
+	margin: auto;
+	border : 1px solid black;
+	border-radius: 5px;
+	box-shadow : 0px 2px 10px #1c1a19;
+	background-color: #d5d4d0;
+}
+.dr{
+	float : right;
+}
+.co{
+	width : 40%;
+	margin: auto;
+	margin-top : 10em;
+	border : 1px solid black;
+	border-radius: 5px;
+	box-shadow : 0px 2px 10px #1c1a19;
+	padding : 1em;
+	background-color : #d5d4d0;
+}
+.co fieldset, .addQ fieldset, .creeEpr fieldset, .startQcm fieldset{
+	background-color : #f7f1e7;
+}
+.co legend, .addQ legend, .creeEpr legend, .startQcm legend{
+	padding : 0.2em 1em;
+	font-weight : bold;
+	border-radius: 5px;
+	border : 1px solid gray;
+	background-color : white;
+}
+.checkQue{
+	display : inline-block;
+	margin : 1em 2em;
+	border : 1px solid black;
+	border-radius: 5px;
+	box-shadow : 0px 2px 10px #1c1a19;
+	background-color : #f7f1e7;
+	cursor : pointer;
+}
+.question{
+	display : inline-block;
+	margin-left : 1.5em;
+	border-left : 1px solid black;
+	border-top : 1px solid black;
+	background-color : #d5d4d0;
+	border-bottom-right-radius: 5px;
+	cursor : pointer;
+}
+.question h3{
+	margin : 0;
+	margin-left : 0.4em;
+}
+.reponse{
+	display : inline-block;
+	width : 28em;
+	background-color : #f7f1e7;
+	border : 1px solid white;
+	border-radius: 5px;
+	margin : 0.4em;
+}
+.shortEpr{
+	margin : 0.5em;
+	border : 1px solid black;
+	border-radius: 5px;
+	padding : 0 2em;
+	width : 42%;
+	display : inline-block;
+	background-color : #f7f1e7;
+}
+.shortEpr a{
+	text-decoration : none;
+	color: black;
+}
+.creeEpr p, .addQ p, .startQcm p, .epreuve p, .epreuve h2, .confirme, .erreur, #affEpr{
+	background-color : white;
+	padding : 0.5em 1em;
+	border : 1px solid grey;
+}
+.creeEpr p, .addQ p, .startQcm p, .epreuve p, .epreuve h2, #affEpr{
+	background-color : white;
+}
+.confirme{
+	background-color : #37f611;
+	text-align : center;
+}
+.erreur{
+	background-color : #f38b34;
+	text-align : center;
+}
+.qcm{
+	border : 1px solid black;
+	padding : 1em;
+	background-color : white;
+}
+.en-tete_qcm{
+	margin-bottom : 3em;
+}
